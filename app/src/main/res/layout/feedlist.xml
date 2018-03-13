@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_margin="3dp"
+    android:orientation="horizontal">
+
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fTitle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:background="@android:color/white"
+            android:fontFamily="sans-serif"
+            android:padding="3dp"
+            android:textColor="@color/garkgreen"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Title" />
+
+        <TextView
+            android:id="@+id/fLocation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:background="@android:color/white"
+            android:padding="3dp"
+            android:text="Location"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:orientation="horizontal"
+            >
+
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="Published by:"
+                android:layout_height="match_parent"
+                android:padding="3dp"
+                android:background="@android:color/white"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/fAuthor"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="match_parent"
+                android:padding="3dp"
+                android:background="@android:color/white"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/fMore"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/white"
+            tools:textAlignment="viewEnd" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
